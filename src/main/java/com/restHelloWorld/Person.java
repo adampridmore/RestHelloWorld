@@ -1,4 +1,4 @@
-package com.masternaut.apachesandbox;
+package com.resthelloworld;
 
 public class Person {
     private String name;

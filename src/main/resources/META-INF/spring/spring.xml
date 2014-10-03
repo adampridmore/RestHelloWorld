@@ -21,10 +21,10 @@
        xmlns:jaxrs="http://cxf.apache.org/jaxrs"
         >
 
-    <context:component-scan base-package="com.masternaut.apachesandbox"/>
+    <context:component-scan base-package="com.resthelloworld"/>
     <context:annotation-config/>
 
-    <bean id="testWebService" class="com.masternaut.apachesandbox.TestWebService">
+    <bean id="testWebService" class="com.resthelloworld.TestWebService">
     </bean>
 
     <!-- WEB SERVICE BEANS -->
